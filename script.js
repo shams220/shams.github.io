@@ -66,6 +66,7 @@ else if(guess !== number){
 })
 
 document.querySelector('.again').addEventListener('click',function(){
+    document.querySelector('.trials').textContent = 5;
     document.querySelector('body').style.backgroundColor = '#222'
     document.querySelector('.number').style.width = '15rem';
     document.querySelector('.score').textContent = 0;
